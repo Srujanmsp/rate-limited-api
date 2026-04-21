@@ -1,0 +1,26 @@
+{
+  "name": "rate-limited-api",
+  "version": "1.0.0",
+  "description": "Simple Express API with per-user rate limiting and a retry queue.",
+  "main": "src/server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+   "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest --runInBand --forceExit"
+  },
+  "keywords": [],
+  "author": "Srujan M S",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0",
+    "nodemon": "^3.1.14",
+    "supertest": "^7.2.2"
+  }
+}
